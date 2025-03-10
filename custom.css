@@ -1,0 +1,92 @@
+body {
+    background: #f5ee89;
+}
+
+.tile1, .tile2, .tile3, .tile4, 
+.tile5, .tile6, .tile7, .tile8, 
+.tile9, .tile10, .tile11, .tile12, 
+.tile13, .tile14, .tile15 {
+    display: table-cell;
+    width: 90px;
+    height: 90px;
+    border: 0.5px solid rgb(255, 240, 36);
+    background-image: url(../images/numbers.png);
+    background-size: 360px 360px;
+    cursor: pointer;
+}
+
+
+.tile1 { background-position: 0px 0px; }
+.tile2 { background-position: -90px 0px; }
+.tile3 { background-position: -180px 0px; }
+.tile4 { background-position: -270px 0px; }
+
+.tile5 { background-position: 0px -90px; }
+.tile6 { background-position: -90px -90px; }
+.tile7 { background-position: -180px -90px; }
+.tile8 { background-position: -270px -90px; }
+
+.tile9 { background-position: 0px -180px; }
+.tile10 { background-position: -90px -180px; }
+.tile11 { background-position: -180px -180px; }
+.tile12 { background-position: -270px -180px; }
+
+.tile13 { background-position: 0px -270px; }
+.tile14 { background-position: -90px -270px; }
+.tile15 { background-position: -180px -270px; }
+
+.tile16 {
+    width: 90px;
+    height: 90px;
+    background: rgb(236, 236, 236); /* Blank tile */
+    border: 1px solid rgb(244, 255, 97);
+    cursor: default;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.controls button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.controls button:hover {
+    background-color: #cdff9e;
+    transform: scale(1.05);
+    color: black; 
+}
+
+.controls button:active {
+    transform: scale(0.95);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    color: white;
+    text-shadow: 2px 2px 4px black; 
+
+}
+
+#gameInfo {
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center; 
+
+    margin: 0; 
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
