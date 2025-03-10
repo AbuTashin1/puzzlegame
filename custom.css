@@ -10,7 +10,7 @@ body {
     width: 90px;
     height: 90px;
     border: 0.5px solid rgb(255, 240, 36);
-    background-image: url(../images/numbers.png);
+    background-image: url(./images/numbers.png);
     background-size: 360px 360px;
     cursor: pointer;
 }
